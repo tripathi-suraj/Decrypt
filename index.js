@@ -8,7 +8,8 @@ var decrypt = function (data, gwstoken) {
   console.log(encs);
 };
 
-decrypt(
-  'U2FsdGVkX18sf7Nr1Pd1j1aSZeJEavKq/BuwEhWgq0k=',
-  'ff8726de-e64c-48a0-80b8-c8fb397ce37a'
-);
+var encPass='U2FsdGVkX18sf7Nr1Pd1j1aSZeJEavKq/BuwEhWgq0k=';
+var gwstoken='ff8726de-e64c-48a0-80b8-c8fb397ce37a';
+decrypt(encPass,gwstoken);
+
+// 
